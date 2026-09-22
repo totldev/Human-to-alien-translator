@@ -1,0 +1,77 @@
+.inputL {
+  border: 2px solid transparent;
+  width: 30%;
+  height: 15%;
+  outline: none;
+  overflow: hidden;
+  background-color: #F3F3F3;
+  border-radius: 10px;
+  transition: all 0.5s;
+  max-width: 30em;
+  max-height: 15em;
+  min-width: 30em;
+  min-height: 15em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+#inputAlien {
+    background-color: #7bff71;
+}
+
+button.round {
+    background-color: #48abe0;
+    color: white;
+    border: none;
+
+    font-size: 200%;
+    width: 1.4em;
+    height: 1.4em;
+
+    box-shadow: 0 2px 4px darkslategray;
+    border-radius: 50%;
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+button.round:hover {
+ background-color: #65b9e6;
+}
+
+button.round:active {
+ box-shadow: 0 0 2px darkslategray;
+ transform: translateY(2px);
+}
+
+#cntr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+    width: 100%;
+}
+
+#translator {
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1em;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+  text-align: center;
+}
+
+.inputL:hover,
+.inputL:focus {
+  border: 2px solid #4A9DEC;
+  box-shadow: 0px 0px 0px 7px rgb(74, 157, 236, 20%);
+  background-color: white;
+}
