@@ -10,6 +10,8 @@ A small web translator that converts human text into a fictional alien language.
 * No backend required
 * GitHub Pages ready
 
+[Open Human → Alien Translator](https://totldev.github.io/Human-to-alien-translator/)
+
 ## Run locally
 
 ```bash
